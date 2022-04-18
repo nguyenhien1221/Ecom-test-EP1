@@ -1,0 +1,242 @@
+
+/* header */
+.header{
+    padding: 0 165px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    display: flex;
+    line-height: 88px;
+}
+.header_logo > img{
+    width: 70px;
+    height: 43px;
+}
+.header_nav-link{
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-style: bold;
+}
+.header_link-item{
+    margin-right: 32px;
+}
+.header_nav-btn{
+    border: none;
+    background-color: #fff;
+    padding: 12px 0;
+    margin-right: 20px;
+}
+
+/* hero section */
+
+.hero_description{
+    position: absolute;
+    width: 730px;
+    height: 286px;
+    text-align: center;
+}
+.hero_background{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-img{
+    width: 100%;
+    height: 560px;
+}
+.des_title{
+    line-height: 56px;
+    font-size: 44px;
+    font-style: bold;
+    letter-spacing: 0.2px;
+    margin-bottom: 32px;
+}
+.des_title2{
+    line-height: 22px;
+    font-size:16px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+    margin-bottom: 56px;
+}
+.des_control{
+    width: 275px;
+    height: 42px;
+    margin: auto;
+}
+.control_btn2{
+    background-color: #fff;
+    border: 1px solid #3C64B1;
+    color: #fff;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    padding: 12px 18px;
+    color: #3C64B1;
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+/* body title */
+
+.body_title{
+    margin: 60px auto 35px;
+    width: 920px;
+    height: 86px;
+    text-align: center;
+}
+.title1{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    margin-bottom: 24px;
+}
+.title2{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+}
+
+/* body infomation */
+
+.body_info{
+    padding: 0 165px;
+}
+.info_services{
+    display: flex; 
+    justify-content: space-between;
+}
+.service_item{
+    text-align: center;
+    max-width:300px;
+    height: 204px;
+    padding-bottom: 12px;
+}
+.service_img{
+    width: 40px;
+    height: 40px;
+}
+.service_title{
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.service_des{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-bottom: 22px;
+}
+.service_label{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #3C64B1;
+}
+
+/* bodyy content1 */
+
+.body_content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.content_img{
+    flex-shrink: 0.8;
+}
+.content_img img {
+    width: 455px;
+}
+
+.content_des{
+    width: 455px;
+}
+.content_title{
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+.content_info{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom: 50px;
+    color: #737B7D;
+}
+.content_des_input{
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.content_des_input input{
+    width: 295px;
+    padding: 11px 14px;
+    font-size: 14px;
+    color: #737B7D;
+    outline: none;
+}
+.content_info2{
+    font-size: 12px;
+    line-height: 16px;
+    color: #737B7D;
+}
+
+/* bodyy content2 */
+.body_content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.content_infomations{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    max-width: 215px;
+}
+.info img {
+    margin-bottom: 10px;
+    width: 30px;
+}
+.info_text{
+    font-size: 16px;
+    line-height: 22px;
+    color: #737B7D;
+}
+
+/* body content 3  */
+.body_content3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content_item img{
+    width: 215px;
+}
+.content_item{
+    max-width: 215px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item_title{
+    color: #373F41;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.item_text{
+    color: #373F41;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
