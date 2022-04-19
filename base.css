@@ -5,10 +5,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html{
+    font-size: 62.5%;
     scroll-behavior: smooth;
     font-family:'Mulish', sans-serif;;
 }
+
+:root{
+    --padding : calc(((100% - 940px)/2));
+}
+
 .pri-btn{
     background-color: #3C64B1;
     border: none;
@@ -16,4 +23,10 @@ html{
     line-height: 18px;
     letter-spacing: 0.3px;
     padding: 12px 18px;
+    transition: 0.3s;
+}
+
+.pri-btn:hover{
+    cursor: pointer;
+    background-color: #2f508e;
 }
