@@ -6,10 +6,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 
 }
-.header_logo{
+
+.inner{
+    width: 1110px;
     display: flex;
+    justify-content: space-between;
+}
+
+.sidenav{
+    width: var(--nav-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}  
+
+.closebtn{
+    display: none;
+}
+.menu_btn{
+    display: none   ;
+}
+.nav_menu{
+    display: none;
+}
+.header_logo{
     line-height: 88px;
 }
 .header_logo >a{
@@ -27,13 +50,13 @@
     color: #092352;
 }
 .header_nav-link{
+    font-weight: 600 ;
     line-height: 18px;
     letter-spacing: 0.2px;
     display: flex;
     list-style: none;
     font-size: 1.4rem;
-    font-style: bold;
-    
+    font-style: bold;   
 }
 .header_link-item{
     margin-right: 32px;
@@ -42,8 +65,14 @@
     cursor: pointer;
     color: #325494;
 }
+.header_nav-btns{
+    display: flex;
 
+}
 .header_nav-btn{
+    font-size: 1.4rem;
+    font-family:'Mulish', sans-serif;
+    font-weight: 700;
     color: #3C64B1;
     border: none;
     background-color: #fff;
@@ -76,6 +105,7 @@
     height: 560px;
 }
 .des_title{
+    font-weight: 700;
     line-height: 56px;
     font-size: 4.4rem;
     font-style: bold;
@@ -84,6 +114,7 @@
     color: #373F41;
 }
 .des_title2{
+    font-weight: 400;
     line-height: 22px;
     font-size:1.6rem;
     letter-spacing: 0.3px;
@@ -96,6 +127,8 @@
     margin: auto;
 }
 .control_btn2{
+    font-family:'Mulish', sans-serif;
+    font-weight: 700;
     background-color: #fff;
     border: 1px solid #3C64B1;
     color: #fff;
@@ -122,6 +155,7 @@
     text-align: center;
 }
 .title1{
+    font-weight: 700;
     font-size: 3.2rem;
     line-height: 40px;
     letter-spacing: 0.1px;
@@ -129,6 +163,7 @@
     color: #373F41;
 }
 .title2{
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 22px;
     letter-spacing: 0.3px;
@@ -143,6 +178,7 @@
 .info_services{
     display: flex; 
     justify-content: space-between;
+    margin-bottom: 94px;
 }
 .service_item{
     text-align: center;
@@ -159,19 +195,23 @@
     height: 40px;
 }
 .service_title{
+    font-weight: 700;
     margin-top: 24px;
+    margin-bottom: 12px;
     font-size: 1.8rem;
     line-height: 24px;
     letter-spacing: 0.1px;
     color: #373F41;
 }
 .service_des{
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 20px;
     letter-spacing: 0.2px;
-    margin-bottom: 22px;
+    margin-bottom: 34px;
 }
 .service_label{
+    font-weight: 700;
     font-size: 1.4rem;
     line-height: 18px;
     letter-spacing: 0.3px;
@@ -184,13 +224,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 108px;
 }
 .content_img{
     flex-basis: 50%;
 }
 .content_img1_1{
-    margin-right: 15px;
+    margin-right: 30px;
 }
 .content_img img {
     width: 100%;
@@ -198,14 +238,15 @@
 .content_des{
     width: 455px;
     flex-basis: 50%;
-    margin-left: 15px;
 }
 .content_title{
+    font-weight: 700;
     font-size: 3.2rem;
     line-height: 40px;
     margin-bottom: 32px;
 }
 .content_info{
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 22px;
     letter-spacing: 0.3px;
@@ -225,6 +266,7 @@
     margin-right: 24px;
 }
 .content_info2{
+    font-weight: 600;
     font-size: 1.2rem;
     line-height: 16px;
     color: #737B7D;
@@ -238,7 +280,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 86px;
 }
 .content_infomations{
     display: flex;
@@ -252,9 +294,14 @@
 }
 .info img {
     margin-bottom: 10px;
-    width: 30px;
+    width: 32px;
+}
+
+.content2_title{
+    margin-bottom: 56px;
 }
 .info_text{
+    font-weight: 400;
     font-size: 1.6rem;
     line-height: 22px;
     color: #737B7D;
@@ -273,18 +320,19 @@
     flex-basis: 25%;
     max-width: 100%;
     text-align: center;
-    margin-bottom: 20px;
 }
 .content_item_1  {
     margin-right: 30px;
 }
 .item_title{
+    font-weight: 700;
     color: #373F41;
     font-size: 1.8rem;
     line-height: 24px;
     letter-spacing: 0.1px;
 }
 .item_text{
+    font-weight: 400;
     color: #373F41;
     font-size: 1.4rem;
     line-height: 20px;
